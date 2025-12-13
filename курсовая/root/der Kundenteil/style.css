@@ -1,0 +1,47 @@
+body {
+font-family: sans-serif;
+background: #111;
+color: #fff;
+text-align: center;
+padding: 30px;
+}
+
+h1 {
+margin-bottom: 20px;
+}
+
+canvas {
+background: #222;
+border-radius: 10px;
+max-width: 600px;
+margin: 10px auto;
+display: block;
+}
+
+.controls {
+margin-top: 25px;
+}
+
+select,
+button {
+padding: 10px 20px;
+border: none;
+border-radius: 6px;
+background: #0077ff;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+}
+
+.controls > * {
+  margin: 5px;
+}
+
+select {
+padding: 10px 16px;
+background: #333;
+color: #fff;
+}
+button:hover {
+background: #005ecc;
+}

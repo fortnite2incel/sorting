@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorting Visualization</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Визуализация алгоритмов сортировки</h1>
+  <canvas id="chart" width="600" height="300"></canvas>
+
+  <div class="controls">
+    <input type="text" id="numbersInput">
+    <select id="algorithm">
+      <option value="bubble">Bubble Sort</option>
+      <option value="selection">Selection Sort</option>
+      <option value="insertion">Insertion Sort</option>
+      <option value="quick">Quick Sort</option>
+    </select>
+
+    
+
+    <button id="start">Начать</button>
+    <div id="status" style="margin-top: 1em; color: #666;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
